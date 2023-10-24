@@ -674,16 +674,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902"
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +730,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2023-07-14T13:56:28+00:00"
+            "time": "2023-10-17T13:38:16+00:00"
         },
         {
             "name": "league/commonmark",
@@ -1016,16 +1016,16 @@
         },
         {
             "name": "league/mime-type-detection",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/mime-type-detection.git",
-                "reference": "a6dfb1194a2946fcdc1f38219445234f65b35c96"
+                "reference": "b6a5854368533df0295c5761a0253656a2e52d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/a6dfb1194a2946fcdc1f38219445234f65b35c96",
-                "reference": "a6dfb1194a2946fcdc1f38219445234f65b35c96",
+                "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/b6a5854368533df0295c5761a0253656a2e52d9e",
+                "reference": "b6a5854368533df0295c5761a0253656a2e52d9e",
                 "shasum": ""
             },
             "require": {
@@ -1056,7 +1056,7 @@
             "description": "Mime-type detection for Flysystem",
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
-                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.13.0"
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.14.0"
             },
             "funding": [
                 {
@@ -1068,7 +1068,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-05T12:09:49+00:00"
+            "time": "2023-10-17T14:13:20+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5115,22 +5115,22 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v6.36.0",
+            "version": "v6.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "5fc3f006ba4eb710fd8085dfe86760f54cb03b61"
+                "reference": "8eca63fabe318b21049bfd19521c4295bb7e11b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/5fc3f006ba4eb710fd8085dfe86760f54cb03b61",
-                "reference": "5fc3f006ba4eb710fd8085dfe86760f54cb03b61",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/8eca63fabe318b21049bfd19521c4295bb7e11b8",
+                "reference": "8eca63fabe318b21049bfd19521c4295bb7e11b8",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^8.83.27",
                 "mockery/mockery": "^1.4.4",
-                "orchestra/testbench-core": "^6.40",
+                "orchestra/testbench-core": "^6.41",
                 "php": "^7.3 || ^8.0",
                 "phpunit/phpunit": "^8.5.21 || ^9.5.10",
                 "spatie/laravel-ray": "^1.29.7"
@@ -5164,22 +5164,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v6.36.0"
+                "source": "https://github.com/orchestral/testbench/tree/v6.37.0"
             },
-            "time": "2023-10-09T10:42:47+00:00"
+            "time": "2023-10-24T04:35:48+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v6.40.0",
+            "version": "v6.41.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "e524b18254d725992caafa96a0b45e8c30227b5b"
+                "reference": "574e0a7a16f7682f5f6f9ce081636a6d4b5cb9d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/e524b18254d725992caafa96a0b45e8c30227b5b",
-                "reference": "e524b18254d725992caafa96a0b45e8c30227b5b",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/574e0a7a16f7682f5f6f9ce081636a6d4b5cb9d8",
+                "reference": "574e0a7a16f7682f5f6f9ce081636a6d4b5cb9d8",
                 "shasum": ""
             },
             "require": {
@@ -5253,7 +5253,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2023-10-09T10:27:18+00:00"
+            "time": "2023-10-24T05:49:11+00:00"
         },
         {
             "name": "phar-io/manifest",
