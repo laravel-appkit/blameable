@@ -59,10 +59,12 @@ jobs:
         run: vendor/bin/phpunit --coverage-clover coverage.xml
 
       - name: Upload coverage
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v5
         with:
+          fail_ci_if_error: false
           files: coverage.xml
           flags: unittests
           name: codecov-umbrella
-          fail_ci_if_error: true
           verbose: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
